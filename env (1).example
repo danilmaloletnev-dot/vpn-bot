@@ -1,0 +1,16 @@
+# Токен бота, полученный у @BotFather
+BOT_TOKEN=8878239281:AAH-jHXOtB8ROGBhEllX0m72FUztqDJJ630
+
+# ID администраторов через запятую (узнать свой id можно у @userinfobot)
+ADMIN_IDS=6667658224
+
+# Провайдер-токен Telegram Payments (BotFather -> Bot Settings -> Payments)
+# Если оставить пустым - бот перейдёт в режим "ручное подтверждение оплаты"
+PAYMENT_PROVIDER_TOKEN=
+
+CURRENCY=RUB
+
+# Реквизиты для ручной оплаты (используются, если PAYMENT_PROVIDER_TOKEN пуст)
+MANUAL_PAYMENT_INFO=Карта: 2200 1536 2253 6077(Альфа Банк)\nПолучатель: Данил Ильич\nПосле перевода нажмите «Я оплатил»
+
+DB_PATH=vpn_bot.db
